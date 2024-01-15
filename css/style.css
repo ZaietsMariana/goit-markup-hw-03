@@ -1,17 +1,42 @@
 body{
-color: #434455;
-font-family:Roboto, sans-serif;
-background-color: #FFFFFF;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+section{
+
+}
+
+.page-header .container{
+    display: flex;
+
+}
+
+
 .logo-web{
-color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-studio{
 color: #2E2F42;
@@ -209,8 +234,13 @@ text-transform: capitalize;
 
 ul li{
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
 }
 
 a{
 text-decoration: none;
 }
+
+
