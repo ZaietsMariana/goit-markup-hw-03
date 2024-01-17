@@ -22,14 +22,23 @@ body{
     margin: 0 auto;
 }
 
-.page-header .container{
+.container .page-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
+.page-nav .logo-web{
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
 
+.page-nav .logo-studio{
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
 
 .logo-web{
     color: #4D5AE5;
@@ -39,6 +48,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .logo-studio{
@@ -80,6 +90,12 @@ body{
     color: #404BBF;
 }
 
+.container li{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
 
 /* Contacts */
 .contacts{
@@ -102,6 +118,10 @@ body{
 
 
 /* Section button */
+
+section{
+    padding: 120px 0;
+}
 .name {
     background:  #2E2F42;
 }
@@ -171,7 +191,7 @@ body{
  
  .second-title{
     color: #2E2F42;
-    background-color: #FFFFFF;
+    background: #F4F4FD;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
