@@ -4,17 +4,32 @@ body{
     background-color: #FFFFFF;
 }
 
-.container{
+/* Header */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.container {
     max-width: 1158px;
-    padding: 0 15px; 
+    padding: 0 15px;
     margin: 0 auto;
 }
 
-/* Header */
 .page-header .container{
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 .logo-web{
     color: #4D5AE5;
@@ -25,6 +40,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .logo-studio{
     color: #2E2F42;
     font-family: Raleway, sans-serif;
@@ -34,6 +50,12 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.top-line .link{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .link{
@@ -80,8 +102,8 @@ body{
 
 
 /* Section button */
-.name{
-    background: #2E2F42;
+.name {
+    background:  #2E2F42;
 }
 
 .title {
