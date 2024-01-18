@@ -1,292 +1,256 @@
-body{
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
 }
 
 /* Header */
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 .page-header {
-    border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.container .page-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.logo-web {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.page-nav .logo-web{
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
+.logo-studio {
+  color: #2e2f42;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.page-nav .logo-studio{
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-.logo-web{
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-}
-
-.logo-studio{
-    color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.top-line .link{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.link{
-    color: #2E2F42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .one-navigation .link:hover,
 .one-navigation .link:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 
-.two-navigation .link:hover{
-    color: #404BBF;
+.two-navigation .link:hover {
+  color: #404bbf;
 }
 
-.three-navigation .link:hover{
-    color: #404BBF;
+.three-navigation .link:hover {
+  color: #404bbf;
 }
-
-.container li{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
-
 
 /* Contacts */
-.contacts{
-    font-style: normal;
+.contacts {
+  font-style: normal;
 }
 
-.contacts-link{
-    color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.contacts-link {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 
+/*====Section button===== */
 
-/* Section button */
-
-section{
-    padding: 120px 0;
-}
 .name {
-    background:  #2E2F42;
+  background: #2e2f42;
 }
 
 .title {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  width: 496px;
 }
 
-.button{
-    cursor: pointer;
-    color: #FFF;
-    background: #4D5AE5;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-
+.button {
+  cursor: pointer;
+  color: #fff;
+  background: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .button:hover,
-.button:focus{
-    background-color: #404BBF;
+.button:focus {
+  background-color: #404bbf;
 }
-
 
 /* Section 1 Our strengths */
-.section-strengths{
-    background-color: #FFFFFF;
+.section-strengths {
+  background-color: #ffffff;
 }
 
-.third-title{
-    color: #2E2F42;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
- }
+.third-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
- .text{
-    color:#434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
- }
+.text {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
- 
- /* Section 2 Our Team */
- .team{
-    background-color: #F4F4FD
- }
+/* Section 2 Our Team */
+.team {
+  background-color: #f4f4fd;
+}
 
- .ourteam{
-    background-color: #FFFFFF
- }
- 
- .second-title{
-    color: #2E2F42;
-    background: #F4F4FD;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
- }
+.ourteam {
+  background-color: #ffffff;
+}
 
- .team-title{
-    color: #2E2F42;
-    font-family: "Roboto";
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
- }
+.second-title {
+  color: #2e2f42;
+  background: #f4f4fd;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
- .team-text{
-    color: #434455;
-    font-family: "Roboto";
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
- }
+.team-title {
+  color: #2e2f42;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
+.team-text {
+  color: #434455;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /* Section 3 Our Portfolio */
- .portfolio-title{
-    color: #2E2F42;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.portfolio-text{
-    color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
 
 /* Footer */
-.discription{
-    color: #F4F4FD;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.discription {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.second-logostudio{
-    color: #F4F4FD;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.second-logostudio {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.logo-discription{
-    background: #2E2F42;
+.logo-discription {
+  background: #2e2f42;
 }
 
-ul li{
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: block;
+ul li {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-h1, h2, h3, h4, p {
-    margin-top: 0;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
