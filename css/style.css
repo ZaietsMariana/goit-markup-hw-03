@@ -5,17 +5,24 @@ body {
   margin: 0;
 }
 
-/* Header */
-
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/*======Header====== */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .logo-web {
   color: #4d5ae5;
@@ -25,23 +32,27 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .logo-studio {
   color: #2e2f42;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
+.top-line{
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
 .link {
   color: #2e2f42;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -59,8 +70,10 @@ body {
 .three-navigation .link:hover {
   color: #404bbf;
 }
+/* ================= */
 
-/* Contacts */
+
+/*====== Contacts======= */
 .contacts {
   font-style: normal;
 }
@@ -79,22 +92,24 @@ body {
   color: #404bbf;
 }
 
-/*====Section button===== */
+.contacts-list{
+  display: inline-flex;
+  gap: 40px;
+}
+/* ================= */
 
+
+/*====Section button===== */
 .name {
   background: #2e2f42;
 }
 
 .title {
   color: #fff;
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
 }
 
 .button {
@@ -108,18 +123,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
+/* ================== */
 
-/* Section 1 Our strengths */
+
+/*===Section 1 Our strengths===*/
 .section-strengths {
   background-color: #ffffff;
 }
@@ -127,8 +140,6 @@ body {
 .third-title {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -136,29 +147,35 @@ body {
 .text {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* Section 2 Our Team */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset;
+  clip: rect;
+  overflow: hidden;
+}
+/* =============== */
+
+
+/*===Section 2 Our Team===*/
 .team {
   background-color: #f4f4fd;
-}
-
-.ourteam {
-  background-color: #ffffff;
 }
 
 .second-title {
   color: #2e2f42;
   background: #f4f4fd;
-  text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
+  text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -166,31 +183,24 @@ body {
 
 .team-title {
   color: #2e2f42;
-  font-family: "Roboto";
-  text-align: center;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .team-text {
   color: #434455;
-  font-family: "Roboto";
-  text-align: center;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* =============== */
 
-/* Section 3 Our Portfolio */
+
+/*===Section 3 Our Portfolio===*/
 .portfolio-title {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -199,19 +209,17 @@ body {
 .portfolio-text {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* ================ */
 
-/* Footer */
+
+/*=====Footer=====*/
+
 .discription {
   color: #f4f4fd;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -235,6 +243,7 @@ ul li {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
   display: block;
 }
 
