@@ -23,6 +23,11 @@ body{
   align-items: center;
 }
 
+.page-navigation{
+  display: flex;
+  align-items: center;
+}
+
 
 .logo-web {
   color: #4d5ae5;
@@ -46,17 +51,21 @@ body{
 }
 
 .top-line{
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
 
-.link {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.one-navigation {
+  padding: 24px 0;
+}
+
+.two-navigation {
+  padding: 24px 0;
+}
+
+.three-navigation {
+  padding: 24px 0;
 }
 
 .one-navigation .link:hover,
@@ -71,12 +80,29 @@ body{
 .three-navigation .link:hover {
   color: #404bbf;
 }
+
+.link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+
+
 /* ================= */
 
 
 /*====== Contacts======= */
 .contacts {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-link {
@@ -92,19 +118,15 @@ body{
 .contacts-link:focus {
   color: #404bbf;
 }
-
-.contacts-list{
-  display: inline-flex;
-  gap: 40px;
-}
-/* ================= */
+/* ================ */
 
 
-/*====Section hero===== */
+/*====Section 1 hero===== */
 
 .section{
-  padding: 120px 0;
+padding: 188px 0;
 }
+
 .hero {
   background: #2e2f42;
 }
@@ -115,7 +137,7 @@ body{
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -136,7 +158,9 @@ body{
   align-items: flex-start;
   gap: 10px; 
   margin: 0 auto;
-  
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .button:hover,
@@ -146,7 +170,7 @@ body{
 /* ================== */
 
 
-/*===Section 1 Our strengths===*/
+/*===Section 2  Our strengths===*/
 
 .strengths-list{
   display: flex;
@@ -154,7 +178,7 @@ body{
 }
 
 .strengths-item{
-width: calc(100%-3*24px)/4;
+width: calc((100%-72px)/4);
 }
 
 .strengths-title {
@@ -162,6 +186,7 @@ width: calc(100%-3*24px)/4;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px
 }
 
 .strengths-text {
@@ -202,6 +227,27 @@ width: calc(100%-3*24px)/4;
   margin-bottom: 72px;
 }
 
+.team-list {
+  display: flex;
+  margin-bottom: 120px;
+  gap: 24px;
+}
+
+ .team-item {
+   background-color: #FFF;
+   calc((100%-72px)/4);
+   border-radius: 0px 0px 4px 4px;
+ }
+
+ .picture-team {
+   width: 100%;
+   padding-bottom: 32px;
+ }
+
+.name-team{
+  padding: 32px 0
+}
+
 .team-title {
   color: #2e2f42;
   font-size: 20px;
@@ -220,32 +266,13 @@ width: calc(100%-3*24px)/4;
   margin-bottom: 32px;
 }
 
-.team-list{
-  display: flex;
-  margin-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
-  gap: 32px;
-}
-
- .team-item{
-    background-color: #FFF;
-    width: calc(100%-2*32px)/3;
- }
-
 .team-list .team-item{
   display: block;
-}
-
-.picture-team{
-  width: 100%;
-  padding-bottom: 32px;
 }
 /* =============== */
 
 
 /*===Section Our Portfolio===*/
-
-
 
 .second-portfolio-title{
   color: #2E2F42;
@@ -254,6 +281,7 @@ width: calc(100%-3*24px)/4;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-list{
@@ -288,6 +316,8 @@ width: calc(100%-3*24px)/4;
 .portfolio-card{
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
+  border-top: none;
+  margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -316,6 +346,8 @@ width: calc(100%-3*24px)/4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex-shrink: 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
