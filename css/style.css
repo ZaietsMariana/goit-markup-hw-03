@@ -150,10 +150,7 @@ body {
 
 .strengths-list{
   display: flex;
-}
-
-.strengths-list .strengths-item{
-  width: calc(100%-24px)/4;
+  gap: 24px;
 }
 
 .strengths-title {
@@ -232,7 +229,6 @@ body {
 
 .team-list .team-item{
   display: block;
-  width: calc(100%-96px)/4;
 }
 
 .picture-team{
