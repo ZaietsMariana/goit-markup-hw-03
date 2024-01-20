@@ -56,15 +56,7 @@ body{
   gap: 40px;
 }
 
-.one-navigation {
-  padding: 24px 0;
-}
-
-.two-navigation {
-  padding: 24px 0;
-}
-
-.three-navigation {
+.link{ 
   padding: 24px 0;
 }
 
@@ -170,7 +162,10 @@ padding: 188px 0;
 /* ================== */
 
 
-/*===Section 2  Our strengths===*/
+/*===Section 2 Our strengths===*/
+.section-strengths{ 
+  padding: 120px 0;
+}
 
 .strengths-list{
   display: flex;
@@ -178,7 +173,7 @@ padding: 188px 0;
 }
 
 .strengths-item{
-width: calc((100%-72px)/4);
+width: calc((100%-3*24px)/4);
 }
 
 .strengths-title {
@@ -214,6 +209,7 @@ width: calc((100%-72px)/4);
 /*===Section 2 Our Team===*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .second-title {
@@ -235,7 +231,7 @@ width: calc((100%-72px)/4);
 
  .team-item {
    background-color: #FFF;
-   calc((100%-72px)/4);
+   width: calc((100%-3*24px)/4);
    border-radius: 0px 0px 4px 4px;
  }
 
@@ -274,6 +270,10 @@ width: calc((100%-72px)/4);
 
 /*===Section Our Portfolio===*/
 
+.portfolio{
+  padding: 120px 0 120px 0
+}
+
 .second-portfolio-title{
   color: #2E2F42;
     text-align: center;
@@ -307,6 +307,7 @@ width: calc((100%-72px)/4);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .picture-portfolio{
