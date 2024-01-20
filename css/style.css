@@ -166,7 +166,7 @@ padding: 188px 0;
 }
 
 .strengths-list .strengths-item{
-  width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .strengths-title {
@@ -224,8 +224,8 @@ padding: 188px 0;
 
  .team-list .team-item {
    background-color: #FFF;
-   width: calc((100% - 72px) / 4);
    border-radius: 0px 0px 4px 4px;
+   flex-basis: calc((100% - 72px) / 4);
  }
 
  .picture-team {
