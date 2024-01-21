@@ -56,10 +56,6 @@ body{
   gap: 40px;
 }
 
-.link{ 
-  padding: 24px 0;
-}
-
 .navigation-item .link:hover,
 .navigation-item .link:focus {
   color: #404bbf;
@@ -67,11 +63,14 @@ body{
 
 
 .link {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+
 }
 
 
@@ -229,7 +228,6 @@ width: calc((100% - 72px) / 4);
 
  .picture-team {
    width: 100%;
-   padding-bottom: 32px;
  }
 
 .name-team{
@@ -306,7 +304,6 @@ width: calc((100% - 72px) / 4);
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
   border-top: none;
-  margin-bottom: 8px
 }
 
 .portfolio-text {
