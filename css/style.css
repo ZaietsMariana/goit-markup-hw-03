@@ -166,7 +166,6 @@ padding: 188px 0;
 }
 
 .strengths-list .strengths-item{
-  display: block;
 width: calc((100% - 72px) / 4);
 }
 
@@ -219,7 +218,6 @@ width: calc((100% - 72px) / 4);
 
 .team-list {
   display: flex;
-  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -253,7 +251,6 @@ width: calc((100% - 72px) / 4);
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .team-list .team-item{
@@ -361,6 +358,11 @@ ul li {
   margin-bottom: 0;
   padding-left: 0;
   display: block;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
 }
 
 a {
